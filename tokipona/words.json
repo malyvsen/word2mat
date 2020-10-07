@@ -1,0 +1,1693 @@
+[
+    {
+        "definitions": {
+            "particle": [
+                "emphasis, emotion, or confirmation"
+            ]
+        },
+        "forms": [
+            "a",
+            "kin"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "non-cute animal",
+                "reptile",
+                "amphibian"
+            ]
+        },
+        "forms": [
+            "akesi"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "no",
+                "not",
+                "zero"
+            ]
+        },
+        "forms": [
+            "ala"
+        ]
+    },
+    {
+        "definitions": {
+            "verb": [
+                "to hunt",
+                "forage"
+            ]
+        },
+        "forms": [
+            "alasa"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "all",
+                "abundant",
+                "countless",
+                "bountiful",
+                "every",
+                "plentiful"
+            ],
+            "noun": [
+                "abundance",
+                "everything",
+                "life",
+                "universe"
+            ],
+            "number": [
+                "100"
+            ]
+        },
+        "forms": [
+            "ale",
+            "ali"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "bowing down",
+                "downward",
+                "humble",
+                "lowly",
+                "dependent"
+            ]
+        },
+        "forms": [
+            "anpa"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "different",
+                "altered",
+                "changed",
+                "other"
+            ]
+        },
+        "forms": [
+            "ante"
+        ]
+    },
+    {
+        "definitions": {
+            "particle": [
+                "or"
+            ]
+        },
+        "forms": [
+            "anu"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "enduring",
+                "kept",
+                "protected",
+                "safe",
+                "waiting",
+                "staying"
+            ],
+            "pre-verb": [
+                "to continue to"
+            ]
+        },
+        "forms": [
+            "awen"
+        ]
+    },
+    {
+        "definitions": {
+            "particle": [
+                "before the direct object"
+            ]
+        },
+        "forms": [
+            "e"
+        ]
+    },
+    {
+        "definitions": {
+            "particle": [
+                "between multiple subjects"
+            ]
+        },
+        "forms": [
+            "en"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "market",
+                "shop",
+                "fair",
+                "bazaar",
+                "business transaction"
+            ]
+        },
+        "forms": [
+            "esun"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "thing",
+                "phenomenon",
+                "object",
+                "matter"
+            ]
+        },
+        "forms": [
+            "ijo"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "bad",
+                "negative",
+                "non-essential",
+                "irrelevant"
+            ]
+        },
+        "forms": [
+            "ike"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "tool",
+                "implement",
+                "machine",
+                "device"
+            ]
+        },
+        "forms": [
+            "ilo"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "centre",
+                "content",
+                "inside",
+                "between",
+                "internal organ",
+                "stomach"
+            ]
+        },
+        "forms": [
+            "insa"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "disgusting",
+                "obscene",
+                "sickly",
+                "toxic",
+                "unclean",
+                "unsanitary"
+            ]
+        },
+        "forms": [
+            "jaki"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "human being",
+                "person",
+                "somebody"
+            ]
+        },
+        "forms": [
+            "jan"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "yellow",
+                "yellowish"
+            ]
+        },
+        "forms": [
+            "jelo"
+        ]
+    },
+    {
+        "definitions": {
+            "verb": [
+                "to have",
+                "carry",
+                "contain",
+                "hold"
+            ]
+        },
+        "forms": [
+            "jo"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "fish",
+                "marine animal",
+                "sea creature"
+            ]
+        },
+        "forms": [
+            "kala"
+        ]
+    },
+    {
+        "definitions": {
+            "verb": [
+                "to produce a sound",
+                "recite",
+                "utter aloud"
+            ]
+        },
+        "forms": [
+            "kalama"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "arriving",
+                "coming",
+                "future",
+                "summoned"
+            ],
+            "pre-verb": [
+                "to become",
+                "manage to",
+                "succeed in"
+            ]
+        },
+        "forms": [
+            "kama"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "plant",
+                "vegetation",
+                "herb",
+                "leaf"
+            ]
+        },
+        "forms": [
+            "kasi"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "possible"
+            ],
+            "pre-verb": [
+                "to be able to",
+                "be allowed to",
+                "can",
+                "may"
+            ]
+        },
+        "forms": [
+            "ken"
+        ]
+    },
+    {
+        "definitions": {
+            "preposition": [
+                "to use",
+                "with",
+                "by means of"
+            ]
+        },
+        "forms": [
+            "kepeken"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "fruit",
+                "vegetable",
+                "mushroom"
+            ]
+        },
+        "forms": [
+            "kili"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "hard object",
+                "metal",
+                "rock",
+                "stone"
+            ]
+        },
+        "forms": [
+            "kiwen"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "clay",
+                "clinging form",
+                "dough",
+                "semi-solid",
+                "paste",
+                "powder"
+            ]
+        },
+        "forms": [
+            "ko"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "air",
+                "breath",
+                "essence",
+                "spirit",
+                "hidden reality",
+                "unseen agent"
+            ]
+        },
+        "forms": [
+            "kon"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "colourful",
+                "pigmented",
+                "painted"
+            ]
+        },
+        "forms": [
+            "kule"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "community",
+                "company",
+                "group",
+                "nation",
+                "society",
+                "tribe"
+            ]
+        },
+        "forms": [
+            "kulupu"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "ear"
+            ],
+            "verb": [
+                "to hear",
+                "listen",
+                "pay attention to",
+                "obey"
+            ]
+        },
+        "forms": [
+            "kute"
+        ]
+    },
+    {
+        "definitions": {
+            "particle": [
+                "between the context phrase and the main sentence"
+            ]
+        },
+        "forms": [
+            "la"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "sleeping",
+                "resting"
+            ]
+        },
+        "forms": [
+            "lape"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "blue",
+                "green"
+            ]
+        },
+        "forms": [
+            "laso"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "head",
+                "mind"
+            ],
+            "verb": [
+                "to control",
+                "direct",
+                "guide",
+                "lead",
+                "own",
+                "plan",
+                "regulate",
+                "rule"
+            ]
+        },
+        "forms": [
+            "lawa"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "cloth",
+                "clothing",
+                "fabric",
+                "textile",
+                "cover",
+                "layer of privacy"
+            ]
+        },
+        "forms": [
+            "len"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "cold",
+                "cool",
+                "uncooked",
+                "raw"
+            ]
+        },
+        "forms": [
+            "lete"
+        ]
+    },
+    {
+        "definitions": {
+            "particle": [
+                "between any subject except 'mi' alone or 'sina' alone and its verb; also to introduce a new verb for the same subject"
+            ]
+        },
+        "forms": [
+            "li"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "little",
+                "small",
+                "short",
+                "few",
+                "a bit",
+                "young"
+            ]
+        },
+        "forms": [
+            "lili"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "long and flexible thing",
+                "cord",
+                "hair",
+                "rope",
+                "thread",
+                "yarn"
+            ]
+        },
+        "forms": [
+            "linja"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "flat object",
+                "book",
+                "document",
+                "card",
+                "paper",
+                "record",
+                "website"
+            ]
+        },
+        "forms": [
+            "lipu"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "red",
+                "reddish"
+            ]
+        },
+        "forms": [
+            "loje"
+        ]
+    },
+    {
+        "definitions": {
+            "preposition": [
+                "located at",
+                "present at",
+                "real",
+                "true",
+                "existing"
+            ]
+        },
+        "forms": [
+            "lon"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "arm",
+                "hand",
+                "tactile organ"
+            ],
+            "number": [
+                "five"
+            ]
+        },
+        "forms": [
+            "luka"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "eye"
+            ],
+            "pre-verb": [
+                "to seek",
+                "look for",
+                "try to"
+            ],
+            "verb": [
+                "to look at",
+                "see",
+                "examine",
+                "observe",
+                "read",
+                "watch"
+            ]
+        },
+        "forms": [
+            "lukin",
+            "oko"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "door",
+                "hole",
+                "orifice",
+                "window"
+            ]
+        },
+        "forms": [
+            "lupa"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "earth",
+                "land",
+                "outdoors",
+                "world",
+                "country",
+                "territory",
+                "soil"
+            ]
+        },
+        "forms": [
+            "ma"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "parent",
+                "ancestor",
+                "creator",
+                "originator",
+                "caretaker",
+                "sustainer"
+            ]
+        },
+        "forms": [
+            "mama"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "money",
+                "cash",
+                "savings",
+                "wealth",
+                "large domesticated animal"
+            ]
+        },
+        "forms": [
+            "mani"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "woman",
+                "female",
+                "feminine person",
+                "wife"
+            ]
+        },
+        "forms": [
+            "meli"
+        ]
+    },
+    {
+        "definitions": {
+            "i,": [
+                "me",
+                "we",
+                "us"
+            ],
+            "noun": [
+                ""
+            ]
+        },
+        "forms": [
+            "mi"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "man",
+                "male",
+                "masculine person",
+                "husband"
+            ]
+        },
+        "forms": [
+            "mije"
+        ]
+    },
+    {
+        "definitions": {
+            "verb": [
+                "to eat",
+                "drink",
+                "consume",
+                "swallow",
+                "ingest"
+            ]
+        },
+        "forms": [
+            "moku"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "dead",
+                "dying"
+            ]
+        },
+        "forms": [
+            "moli"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "back",
+                "behind",
+                "rear"
+            ]
+        },
+        "forms": [
+            "monsi"
+        ]
+    },
+    {
+        "definitions": {
+            "particle": [
+                "animal noise or communication"
+            ]
+        },
+        "forms": [
+            "mu"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "moon",
+                "night sky object",
+                "star"
+            ]
+        },
+        "forms": [
+            "mun"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "artistic",
+                "entertaining",
+                "frivolous",
+                "playful",
+                "recreational"
+            ]
+        },
+        "forms": [
+            "musi"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "many",
+                "a lot",
+                "more",
+                "much",
+                "several",
+                "very"
+            ],
+            "noun": [
+                "quantity"
+            ]
+        },
+        "forms": [
+            "mute"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "numbers"
+            ],
+            "particle": [
+                "-th ordinal number"
+            ]
+        },
+        "forms": [
+            "nanpa"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "unusual",
+                "strange",
+                "foolish",
+                "crazy",
+                "drunk",
+                "intoxicated"
+            ]
+        },
+        "forms": [
+            "nasa"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "way",
+                "custom",
+                "doctrine",
+                "method",
+                "path",
+                "road"
+            ]
+        },
+        "forms": [
+            "nasin"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "bump",
+                "button",
+                "hill",
+                "mountain",
+                "nose",
+                "protuberance"
+            ]
+        },
+        "forms": [
+            "nena"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "that",
+                "this"
+            ]
+        },
+        "forms": [
+            "ni"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "name",
+                "word"
+            ]
+        },
+        "forms": [
+            "nimi"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "foot",
+                "leg",
+                "organ of locomotion",
+                "bottom",
+                "lower part"
+            ]
+        },
+        "forms": [
+            "noka"
+        ]
+    },
+    {
+        "definitions": {
+            "o!": [
+                "(vocative or imperative)"
+            ],
+            "particle": [
+                "hey!"
+            ]
+        },
+        "forms": [
+            "o"
+        ]
+    },
+    {
+        "definitions": {
+            "verb": [
+                "to love",
+                "have compassion for",
+                "respect",
+                "show affection to"
+            ]
+        },
+        "forms": [
+            "olin"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "he",
+                "she",
+                "it",
+                "they"
+            ]
+        },
+        "forms": [
+            "ona"
+        ]
+    },
+    {
+        "definitions": {
+            "verb": [
+                "to begin",
+                "start",
+                "open",
+                "turn on"
+            ]
+        },
+        "forms": [
+            "open"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "botched",
+                "broken",
+                "damaged",
+                "harmed",
+                "messed up"
+            ]
+        },
+        "forms": [
+            "pakala"
+        ]
+    },
+    {
+        "definitions": {
+            "verb": [
+                "to do",
+                "take action on",
+                "work on",
+                "build",
+                "make",
+                "prepare"
+            ]
+        },
+        "forms": [
+            "pali"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "long hard thing",
+                "branch",
+                "rod",
+                "stick"
+            ]
+        },
+        "forms": [
+            "palisa"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "cereal",
+                "grain",
+                "barley",
+                "corn",
+                "oat",
+                "rice",
+                "wheat",
+                "bread",
+                "pasta"
+            ]
+        },
+        "forms": [
+            "pan"
+        ]
+    },
+    {
+        "definitions": {
+            "verb": [
+                "to give",
+                "send",
+                "emit",
+                "provide",
+                "put",
+                "release"
+            ]
+        },
+        "forms": [
+            "pana"
+        ]
+    },
+    {
+        "definitions": {
+            "particle": [
+                "of"
+            ]
+        },
+        "forms": [
+            "pi"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "feeling (an emotion",
+                "a direct experience)"
+            ],
+            "noun": [
+                "heart (physical or emotional)"
+            ]
+        },
+        "forms": [
+            "pilin"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "black",
+                "dark",
+                "unlit"
+            ]
+        },
+        "forms": [
+            "pimeja"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "ago",
+                "completed",
+                "ended",
+                "finished",
+                "past"
+            ]
+        },
+        "forms": [
+            "pini"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "bug",
+                "insect",
+                "ant",
+                "spider"
+            ]
+        },
+        "forms": [
+            "pipi"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "hip",
+                "side",
+                "next to",
+                "nearby",
+                "vicinity"
+            ]
+        },
+        "forms": [
+            "poka"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "container",
+                "bag",
+                "bowl",
+                "box",
+                "cup",
+                "cupboard",
+                "drawer",
+                "vessel"
+            ]
+        },
+        "forms": [
+            "poki"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "good",
+                "positive",
+                "useful",
+                "friendly",
+                "peaceful",
+                "simple"
+            ]
+        },
+        "forms": [
+            "pona"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "interacting with the official Toki Pona book"
+            ]
+        },
+        "forms": [
+            "pu"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "same",
+                "similar",
+                "each other",
+                "sibling",
+                "peer",
+                "fellow"
+            ],
+            "preposition": [
+                "as",
+                "like"
+            ]
+        },
+        "forms": [
+            "sama"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "fire",
+                "cooking element",
+                "chemical reaction",
+                "heat source"
+            ]
+        },
+        "forms": [
+            "seli"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "outer form",
+                "outer layer",
+                "bark",
+                "peel",
+                "shell",
+                "skin",
+                "boundary"
+            ]
+        },
+        "forms": [
+            "selo"
+        ]
+    },
+    {
+        "definitions": {
+            "particle": [
+                "what? which?"
+            ]
+        },
+        "forms": [
+            "seme"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "awe-inspiring",
+                "divine",
+                "sacred",
+                "supernatural"
+            ],
+            "noun": [
+                "area above",
+                "highest part",
+                "something elevated"
+            ]
+        },
+        "forms": [
+            "sewi"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "body (of person or animal)",
+                "physical state",
+                "torso"
+            ]
+        },
+        "forms": [
+            "sijelo"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "of one year"
+            ],
+            "noun": [
+                "round or circular thing",
+                "ball",
+                "circle",
+                "cycle",
+                "sphere",
+                "wheel"
+            ]
+        },
+        "forms": [
+            "sike"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "new",
+                "fresh",
+                "additional",
+                "another",
+                "extra"
+            ]
+        },
+        "forms": [
+            "sin",
+            "namako"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "you"
+            ]
+        },
+        "forms": [
+            "sina"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "face",
+                "foremost",
+                "front",
+                "wall"
+            ]
+        },
+        "forms": [
+            "sinpin"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "image",
+                "picture",
+                "representation",
+                "symbol",
+                "mark",
+                "writing"
+            ]
+        },
+        "forms": [
+            "sitelen"
+        ]
+    },
+    {
+        "definitions": {
+            "pre-verb": [
+                "to know how to"
+            ],
+            "verb": [
+                "to know",
+                "be skilled in",
+                "be wise about",
+                "have information on"
+            ]
+        },
+        "forms": [
+            "sona"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "animal",
+                "beast",
+                "land mammal"
+            ]
+        },
+        "forms": [
+            "soweli"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "big",
+                "heavy",
+                "large",
+                "long",
+                "tall",
+                "important",
+                "adult"
+            ]
+        },
+        "forms": [
+            "suli"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "sun",
+                "light",
+                "brightness",
+                "glow",
+                "radiance",
+                "shine",
+                "light source"
+            ]
+        },
+        "forms": [
+            "suno"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "horizontal surface",
+                "thing to put or rest something on"
+            ]
+        },
+        "forms": [
+            "supa"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "sweet",
+                "fragrant",
+                "cute",
+                "innocent",
+                "adorable"
+            ]
+        },
+        "forms": [
+            "suwi"
+        ]
+    },
+    {
+        "definitions": {
+            "preposition": [
+                "by",
+                "from",
+                "because of"
+            ]
+        },
+        "forms": [
+            "tan"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "only"
+            ],
+            "particle": [
+                "but, however"
+            ]
+        },
+        "forms": [
+            "taso"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "moving"
+            ],
+            "preposition": [
+                "going to",
+                "toward",
+                "for",
+                "from the perspective of"
+            ]
+        },
+        "forms": [
+            "tawa"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "water",
+                "liquid",
+                "fluid",
+                "wet substance",
+                "beverage"
+            ]
+        },
+        "forms": [
+            "telo"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "time",
+                "duration",
+                "moment",
+                "occation",
+                "period",
+                "situation"
+            ]
+        },
+        "forms": [
+            "tenpo"
+        ]
+    },
+    {
+        "definitions": {
+            "verb": [
+                "to communicate",
+                "say",
+                "speak",
+                "say",
+                "talk",
+                "use language",
+                "think"
+            ]
+        },
+        "forms": [
+            "toki"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "indoor space",
+                "building",
+                "home",
+                "house",
+                "room"
+            ]
+        },
+        "forms": [
+            "tomo"
+        ]
+    },
+    {
+        "definitions": {
+            "number": [
+                "two"
+            ]
+        },
+        "forms": [
+            "tu"
+        ]
+    },
+    {
+        "definitions": {
+            "verb": [
+                "to have sexual or marital relations with"
+            ]
+        },
+        "forms": [
+            "unpa"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "mouth",
+                "lips",
+                "oral cavity",
+                "jaw"
+            ]
+        },
+        "forms": [
+            "uta"
+        ]
+    },
+    {
+        "definitions": {
+            "verb": [
+                "to battle",
+                "challenge",
+                "compete against",
+                "struggle against"
+            ]
+        },
+        "forms": [
+            "utala"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "white",
+                "whitish",
+                "light-coloured",
+                "pale"
+            ]
+        },
+        "forms": [
+            "walo"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "unique",
+                "united"
+            ],
+            "number": [
+                "one"
+            ]
+        },
+        "forms": [
+            "wan"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "bird",
+                "flying creature",
+                "winged animal"
+            ]
+        },
+        "forms": [
+            "waso"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "strong",
+                "powerful",
+                "confident",
+                "sure",
+                "energetic",
+                "intense"
+            ]
+        },
+        "forms": [
+            "wawa"
+        ]
+    },
+    {
+        "definitions": {
+            "adjective": [
+                "absent",
+                "away",
+                "ignored"
+            ]
+        },
+        "forms": [
+            "weka"
+        ]
+    },
+    {
+        "definitions": {
+            "pre-verb": [
+                "must",
+                "need",
+                "require",
+                "should",
+                "want",
+                "wish"
+            ]
+        },
+        "forms": [
+            "wile"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "monster"
+            ]
+        },
+        "forms": [
+            "monsuta"
+        ]
+    },
+    {
+        "definitions": {
+            "verb": [
+                "to split",
+                "cut",
+                "fragment"
+            ]
+        },
+        "forms": [
+            "kipisi"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "racoon"
+            ]
+        },
+        "forms": [
+            "kijetesantakalu"
+        ]
+    },
+    {
+        "definitions": {
+            "noun": [
+                "transgender person",
+                "non-binary person"
+            ]
+        },
+        "forms": [
+            "tonsi"
+        ]
+    }
+]
