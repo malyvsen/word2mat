@@ -1,4 +1,5 @@
 import os
+from .words import word_forms
 
 
 
@@ -22,8 +23,13 @@ def split_sentences(paragraph):
         paragraph = paragraph.replace(symbol, '.')
     return paragraph.split('.')
 
+
 def split_words(sentence):
-    return sentence.split()
+    return [
+        word
+        for word in sentence.split()
+        if word in word_forms
+    ]
 
 text = [
     words

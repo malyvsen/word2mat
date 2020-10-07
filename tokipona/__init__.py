@@ -1,2 +1,2 @@
-from .words import words
+from .words import words, word_forms
 from .text import text
