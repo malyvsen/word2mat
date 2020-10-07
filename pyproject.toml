@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "word2mat"
+version = "0.1.0"
+description = "Representing words as matrices to incorporate word order."
+authors = ["malyvsen <5940672+malyvsen@users.noreply.github.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+torch = "^1.6.0"
+tqdm = "^4.50.1"
+numpy = "^1.19.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
