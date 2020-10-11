@@ -31,7 +31,7 @@ def split_words(sentence):
         if word in word_forms
     ]
 
-text = [
+sentences = [
     words
     for words in [
         split_words(sentence)
