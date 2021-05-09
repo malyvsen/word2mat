@@ -1,7 +1,23 @@
 # Word2Mat
-Hi! This is an NLP research project. I'm trying to find an alterative way to represent word meanings in a computer - one which could elegantly be extended to produce meanings of phrases while taking word order into account.
 
-I don't have a lot of computing resources, so I'm using a toy dataset of [Toki Pona](http://tokipona.org/) text. This language only has 120(ish) words which never change form, so it should be much easier to handle computationally.
+Hoi! This is an NLP research project. We're trying to find an alterative way to represent word meanings in a computer - one which could elegantly be extended to produce meanings of phrases while taking word order into account.
 
-## Credits
-The Toki Pona word list is taken from [here](https://github.com/janpona/pu/blob/master/pu.csv) and [here](https://www.reddit.com/r/tokipona/comments/g9ne0s/). The texts are taken from [here](http://tomolipu.blogspot.com/) and [here](https://raw.githubusercontent.com/SadaleNet/ReadWithYourVoice/master/src/articles.json).
+## Instructions
+
+### Data
+
+There are two important classes: `Dataset` and `Phrase`. A `Dataset` is a collection of phrases, a `Phrase` is a collection of words.
+
+Example usage:
+
+```python
+dataset = Dataset.from_file("path/to/file.txt")
+len(dataset) # 30184
+len(dataset.unique_words) # 2941
+for phrase in dataset.clean.shuffled:
+	print(phrase.without_punctuation.words) # ("mary", "had", "a", "little", "lamb"), ...
+```
+
+### Vectors
+
+Half-ready :) Download word vectors from [here](https://kth.box.com/s/d8epqp9ipiyyteae35qr7j921rnowtaz) and put them under `data/word2vec.xz`. You'll be able to load them using `Vectors.from_xz_file`. Currently, this only lists the known words - we'll add loading the actual word2vec vectors later.
