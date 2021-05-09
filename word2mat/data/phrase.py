@@ -26,7 +26,10 @@ class Phrase:
 
     def without_characters(self, forbidden_characters: str) -> "Phrase":
         return type(self)(
-            word=tuple(
+            words=tuple(
                 [word for word in self.words if word not in forbidden_characters]
             )
         )
+
+    def __len__(self) -> int:
+        return len(self.words)

@@ -40,10 +40,15 @@ class Dataset:
         )
 
     @property
-    def without_rare_words(self) -> "Dataset":
+    def clean(self) -> "Dataset":
         return type(self)(
             phrases=tuple(
-                [phrase for phrase in self.phrases if not phrase.contains_rare_words]
+                [
+                    cleaned
+                    for phrase in self.phrases
+                    if not phrase.contains_rare_words
+                    if len(cleaned := phrase.without_whitespace) > 0
+                ]
             )
         )
 
@@ -54,6 +59,9 @@ class Dataset:
     @property
     def shuffled(self) -> "Dataset":
         return type(self)(phrases=tuple(sample(self.phrases, k=len(self.phrases))))
+
+    def __len__(self) -> int:
+        return len(self.phrases)
 
     def __iter__(self):
         return iter(self.phrases)
