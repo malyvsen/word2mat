@@ -26,7 +26,7 @@ class Sentence:
                     result.append("'" + apostrophe_split[2])
                 else:
                     result += apostrophe_split
-        return cls(words=tuple(result))
+        return cls(words=tuple(word.lower() for word in result))
 
     @classmethod
     def from_spacy(cls, spacy_sentence) -> "Sentence":
