@@ -4,6 +4,7 @@ from functools import cached_property
 from pathlib import Path
 from random import sample
 from datasets import load_dataset
+import manydo
 from tqdm.auto import tqdm
 from word2mat.utils import get_nlp
 from .sentence import Sentence
@@ -32,15 +33,17 @@ class Dataset:
         config: str = None,
         split: str = "train",
         column: str = "text",
+        num_jobs: int = 8,
     ) -> "Dataset":
         huggingface_dataset = load_dataset(dataset_name, config)[split]
         return cls(
             sentences=tuple(
-                [
-                    Sentence.from_spacy(sentence)
-                    for data in tqdm(huggingface_dataset, desc="Reading dataset")
-                    for sentence in get_nlp()(data[column]).sents
-                ]
+                manydo.map(
+                    lambda data: Sentence.from_string(data[column]),
+                    iterable=huggingface_dataset,
+                    num_jobs=num_jobs,
+                    desc="Parsing dataset",
+                )
             )
         )
 
