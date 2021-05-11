@@ -5,26 +5,26 @@ from word2mat.vectors import get_word2vec
 
 
 @dataclass(frozen=True)
-class Phrase:
+class Sentence:
     words: Tuple[str]
 
     @classmethod
-    def from_sentence(cls, sentence) -> "Phrase":
-        return cls(words=tuple([word.lower_ for word in sentence]))
+    def from_spacy(cls, spacy_sentence) -> "Sentence":
+        return cls(words=tuple([word.lower_ for word in spacy_sentence]))
 
     @property
     def contains_rare_words(self):
         return any(word not in get_word2vec().known_words for word in self.words)
 
     @property
-    def without_whitespace(self) -> "Phrase":
+    def without_whitespace(self) -> "Sentence":
         return self.without_characters(whitespace)
 
     @property
-    def without_punctuation(self) -> "Phrase":
+    def without_punctuation(self) -> "Sentence":
         return self.without_characters(punctuation)
 
-    def without_characters(self, forbidden_characters: str) -> "Phrase":
+    def without_characters(self, forbidden_characters: str) -> "Sentence":
         return type(self)(
             words=tuple(
                 [word for word in self.words if word not in forbidden_characters]

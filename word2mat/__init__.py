@@ -1,2 +1,2 @@
-from .data import Dataset, Phrase
+from .data import Dataset, Sentence
 from .vectors import Vectors
