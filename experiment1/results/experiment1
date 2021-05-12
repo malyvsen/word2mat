@@ -10,12 +10,6 @@ cosine init solves this
 
 
 Results:
-Uniform distribution gives skewed results
-Results for Gaussian and cosine are almost identical:
-	- resulting distribution is Guassian (no skew)
-	- standard deviation decreases after more multiplications
-	
-	
-Comments on scale:	
-The values of the resulting distribution can exlpode or shrink according to the mean of the initialization. More research is needed on this. The correlation with eigenvalues is not directly clear. Even when the initialised matrices have eigenvalues with avg < 1, the values still explode. There is a relation however: small enough initialization mean will lead to values shrinking. => more research to find out the 'sweet spot' where values remain constant. This happens for both cosine as gaussian inits.
+All distributions end up with a fat tail after a few iteration. The fat tail becomes worse and worse with every iteration
 
+When taking the square root after every iteration, the distribution converges to a stable one (remains the same after more multiplications)

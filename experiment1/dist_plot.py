@@ -1,6 +1,7 @@
 from tqdm.auto import tqdm
 import numpy as np
 from matplotlib import pyplot as plt
+import scipy
 
 def plot_eig_magnitudes(nb_test:int, matrix_dim:int,init_func,plot_title:str,nb_intervals:int):
     eigs=[]
@@ -13,15 +14,22 @@ def plot_eig_magnitudes(nb_test:int, matrix_dim:int,init_func,plot_title:str,nb_
 
 
 def plot_dist_mul(nb_test: int, matrix_dim: int, init_func, plot_title: str,mulsize:int,
-                  eval_interval:int,nb_intervals:int,scale_adjustment=False):
-    nb_evals = (mulsize // eval_interval)
+                  eval_interval:int,nb_intervals:int,scale_adjustment=False,sqroot=False):
+    nb_evals = (mulsize // eval_interval)+1
     distribution_values = [[]] * nb_evals
     for test in tqdm(range(nb_test), desc="Generating and multiplying matrices", total=nb_test):
-        eval = 0
+
         uniform_matrices = [init_func(matrix_dim) for e in range(mulsize + 1)]
         result_matrix = uniform_matrices[0]
+        if test == 0:
+            distribution_values[0] = result_matrix
+        else:
+            distribution_values[0] = np.append(distribution_values[0], result_matrix)
+        eval = 1
         for j in range(1, mulsize + 1):
             result_matrix = np.matmul(result_matrix, uniform_matrices[j])
+            if sqroot:
+                result_matrix=np.sqrt(abs(result_matrix))*np.sign(result_matrix)
             if j % eval_interval == 0:
                 flat_result = np.matrix.flatten(result_matrix)
                 if test == 0:
@@ -30,15 +38,18 @@ def plot_dist_mul(nb_test: int, matrix_dim: int, init_func, plot_title: str,muls
                     distribution_values[eval] = np.append(distribution_values[eval], flat_result)
                 eval += 1
     for eval in range(nb_evals):
+        print(scipy.stats.kurtosis(distribution_values[eval]))
         if scale_adjustment:
             mean = np.mean(distribution_values[eval])
             std=np.std(distribution_values[eval])
-        nb_stds_each_side=3
-        step=nb_stds_each_side*2*std/nb_intervals
-        intervals=[]
-        for i in range(nb_intervals):
-            intervals.append(mean-nb_stds_each_side*std+i*step)
-        plt.hist(distribution_values[eval], bins=intervals)
-        multiplic_nb = eval_interval + eval * eval_interval
+            nb_stds_each_side=3
+            step=nb_stds_each_side*2*std/nb_intervals
+            intervals=[]
+            for i in range(nb_intervals):
+                intervals.append(mean-nb_stds_each_side*std+i*step)
+            plt.hist(distribution_values[eval], bins=intervals)
+        else:
+            plt.hist(distribution_values[eval], bins=nb_intervals)
+        multiplic_nb =  eval * eval_interval
         plt.title(plot_title + " @multiplication " + str(multiplic_nb))
         plt.show()
