@@ -51,12 +51,12 @@ class Dataset:
     def clean(self) -> "Dataset":
         return type(self)(
             sentences=tuple(
-                [
+                set(
                     cleaned
                     for sentence in self.sentences
                     if not sentence.contains_rare_words
                     if len(cleaned := sentence.without_whitespace) > 0
-                ]
+                )
             )
         )
 
@@ -68,6 +68,15 @@ class Dataset:
     def shuffled(self) -> "Dataset":
         return type(self)(
             sentences=tuple(sample(self.sentences, k=len(self.sentences)))
+        )
+
+    def without_other_words(self, allowed_words) -> "Dataset":
+        return type(self)(
+            sentences=tuple(
+                sentence
+                for sentence in self.sentences
+                if not sentence.contains_other_words(allowed_words)
+            )
         )
 
     def __len__(self) -> int:

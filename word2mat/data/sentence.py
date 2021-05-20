@@ -34,7 +34,7 @@ class Sentence:
 
     @property
     def contains_rare_words(self):
-        return any(word not in get_word2vec().known_words for word in self.words)
+        return self.contains_other_words(allowed_words=get_word2vec().known_words)
 
     @property
     def without_whitespace(self) -> "Sentence":
@@ -43,6 +43,9 @@ class Sentence:
     @property
     def without_punctuation(self) -> "Sentence":
         return self.without_characters(punctuation)
+
+    def contains_other_words(self, allowed_words):
+        return any(word not in allowed_words for word in self.words)
 
     def without_characters(self, forbidden_characters: str) -> "Sentence":
         return type(self)(
